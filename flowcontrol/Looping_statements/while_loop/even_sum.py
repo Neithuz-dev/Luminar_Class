@@ -7,4 +7,4 @@ while lower<=upper:
     lower+=1
 print(f"{even}")
 #hw print lower to upper odd number sum\
-#print loer to upper even and odd number sum
+#print lower to upper even and odd number sum
