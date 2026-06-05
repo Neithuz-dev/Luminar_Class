@@ -1,5 +1,10 @@
-days = int(input("enter the days:"))
-hr= days*24
-min=hr*60
-sec =min*60
-print(f"there are hours {hr},mintues {min},seconds {sec} ")
+day = int(input("Enter the Number of days: "))
+hours = day*24
+minutes = hours*60
+sec = minutes*60
+
+print("Number of hours: ",hours)
+print("Number of minutes: ",minutes)
+print("Number of seconds: ",sec)
+
+
