@@ -17,4 +17,4 @@ def prime(num):
             return "Not prime"
     else:
         return "prime"
-print(prime(9))
+

@@ -1,3 +1,9 @@
+# The Strong Number Checker
+# A Strong Number is a special number where the sum of the factorial of its individual digits is
+# equal to the number itself.
+#  Example: 145 is a Strong Number because:
+# 1! + 4! + 5! = 1 + 24 + 120 = 145
+
 num = 145
 temp = num
 total = 0
