@@ -1,0 +1,27 @@
+Customer1_qs_FH
+
+1. Profession Dancer (fname,lname,age)
+
+2. age above 50 customers (fname,lname,age,prof)
+
+3.age between 25 to 40 (fname,lname,age,prof)
+
+4.Location india (fname,lname,age,prof)
+
+5.India Location and age above 50 (fname,lname,age)
+
+6.uk location prof Dancer (all data)
+
+7.pilot profession (fname,lname,age,prof,loc)
+
+8.age above 40 pilot profession all details
+
+9.uk location age above 50 (fname,lname,age,prof,loc)
+
+10.each location count 
+   
+   ex: {uk:10,us:18......}
+
+11.each prof count
+
+12.each age group count
