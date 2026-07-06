@@ -11,5 +11,5 @@ code1="54768"
 print(re.fullmatch(r"\d+",code1))
 
 data = "mail id:ajau@gmail.com","akhil@gmail.com"
-print(re.)
+print()
 
