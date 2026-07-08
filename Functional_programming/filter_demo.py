@@ -12,6 +12,12 @@ print(add_ls)
 gr_5 = list(filter(lambda x:x<5,ls))
 print(gr_5)
 
-odd_ls = list(filter(lambda x:x%2!=0,ls))
-cube = list(map(lambda x:x**3,odd_ls))
+
+cube = list(map(lambda x:x**3,filter(lambda x:x%2!=0,ls)))
 print(cube)
+
+mul_10 = list(map(lambda x: x*10,filter(lambda x:x>5,ls)))
+print(mul_10)
+
+sqr_num = list(map(lambda x: x**2,filter(lambda x:x>5,ls)))
+print(sqr_num)
