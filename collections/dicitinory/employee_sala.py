@@ -25,7 +25,11 @@ def avg_sal(details):
     # avg = total/count
     # print(avg)
 
+#     avg_ = sum(details.values())/len(details)
+#     print(avg_)
+#
+# avg_sal(details)
     avg_ = sum(details.values())/len(details)
-    print(avg_)
+    return avg_
 
-avg_sal(details)
+print(avg_sal(details))

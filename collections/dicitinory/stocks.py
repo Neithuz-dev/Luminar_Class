@@ -2,13 +2,7 @@
 # Question
 # A shop stores product quantities in a dictionary.
 # Find products whose stock is less than 10.
-# Input
-# {
-#     "Mobile":15,
-#     "Laptop":5,
-#     "Tablet":8,
-#     "Mouse":20
-# }
+# text = "Python Programming Practice Java"
 # Output
 # Laptop
 # Tablet
@@ -23,4 +17,16 @@ def stock_count(text):
             print(item)
 
 stock_count(text)
+
+# text = {"Mobile":15,
+#     "Laptop":5,
+#     "Tablet":8,
+#     "Mouse":20}
+#
+# def stock(text):
+#     for items,no in text.items():
+#         if no<10:
+#             print(items)
+#
+# print(stock(text))
 
