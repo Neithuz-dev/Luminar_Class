@@ -19,4 +19,5 @@ ls_word = [i for i in string.split() if len(i)<7]
 print(ls_word)
 
 dic = {'bike':500,'car':2700,'jeep':3200,'bus':8000,'van':3400,'cycle':150}
-ls = [i for i in dic[i] if]
+ls_w = [i for i in dic if dic[i]>2500]
+print(ls_w)
