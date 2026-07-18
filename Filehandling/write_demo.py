@@ -1,5 +1,0 @@
-file = open("test_write","w")
-file.write("python\n")
-file.write("data analytics\n")
-file.write("sql\n")
-file.write("NOsql\n")

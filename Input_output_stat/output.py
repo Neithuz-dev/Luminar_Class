@@ -1,7 +1,0 @@
-first_name=input("enter the name ")
-last_name=input("enter the last name ")
-print("The name ", first_name,last_name)
-qualification=input("enter the qualification ")
-place=input("enter the place ")
-Fruit_name=input("enter fruit ")
-print(qualification,place,Fruit_name)
