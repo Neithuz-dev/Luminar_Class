@@ -1,0 +1,10 @@
+Pattern	Meaning	Output
+\d	One digit	['3', '5', '1', '2']
+\d+	One or more consecutive digits	['3', '5', '12']
+Function	Purpose
+re.search()	Finds the first match anywhere in the string.
+re.match()	Checks for a match only at the beginning of the string.
+re.findall()	Returns all matches as a list.
+re.finditer()	Returns an iterator over all matches.
+re.sub()	Replaces matching text.
+re.split()	Splits a string using a regex pattern.
