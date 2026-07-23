@@ -1,7 +1,9 @@
 import pandas as pd
 
 df = pd.read_csv(r"C:\Users\hp\Downloads\customer1.txt" ,names= ['id','fname','lname', 'age','prof','loc'])
-# print(df.sort_values(by= "fname",ascending= False))
+print(df)
 
-df5 = (df.loc[df['loc']=="india"].sort_values(by='age'))
-print(df5)
+print(df.isna().sum())
+df = df.fillna("india")
+print(df.isna().sum())
+
