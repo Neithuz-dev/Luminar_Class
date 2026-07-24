@@ -23,6 +23,12 @@ print('-'*100)
 df5= df.groupby('prof')['age'].min()
 print(df5)
 print('-'*100)
-df6= df.groupby('prof')['age'].mean()
+df6= df.groupby('prof')['age'].median()
 print(df6)
 
+print('-'*100)
+df7= df.groupby('loc')['age'].mean().round()
+print(df7)
+
+df8 = df.groupby(['loc','prof'])['age'].count()
+print(df8)
