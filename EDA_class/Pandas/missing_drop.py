@@ -16,7 +16,12 @@ print(main_df)
 m2 = main_df['Calories'].mean()
 print(m2)
 
+# for i in main_df.index:
+#     if main_df.loc[i,"Calories"]>=400:
+#         main_df.loc[i,"Calories"] = m2
+# print(main_df)
+
 for i in main_df.index:
     if main_df.loc[i,"Calories"]>=400:
-        main_df.loc[i,"Calories"] = m2
+        main_df.drop(i,inplace= False)
 print(main_df)
